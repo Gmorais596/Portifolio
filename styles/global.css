@@ -24,10 +24,30 @@
     --title-md-asap: bold 24px/120% var(--font-asap);
     --title-sm-asap: bold 16px/120% var(--font-asap);
     /*Fonte Inconsolada*/
-    --font-inconsolada: "Poppins", sans-serif;
-    --sutitle: 20px/120% var(--font-inconsolada);
+    --font-inconsolada: "Inconsolata", monospace;
+    --subtitle: 20px/120% var(--font-inconsolada);
     /*Fonte Maven Pro*/
-    --font-maven: "Poppins", sans-serif;
+    --font-maven: "Maven Pro", sans-serif;
     --text-md-maven: 16px/140% var(--font-maven);
     --text-sm-maven: 14px/140% var(--font-maven);
+}
+
+.coder {
+    font-family: var(--font-inconsolada);
+}
+
+span {
+    color: var(--red);
+}
+
+.gray-500 {
+    color: var(--gray-500);
+}
+
+.gray-600 {
+    color: var(--gray-600);
+}
+
+.gray-400 {
+    color: var(--gray-400);
 }
