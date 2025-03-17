@@ -1,0 +1,41 @@
+.serviços {
+    background-color: var(--gray-100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+}
+
+
+
+.informações {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.card-2 {
+    background-color: var(--gray-100);
+    width: 300px;
+    height: 155px;
+    border: 1px solid var(--gray-300);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    text-align: left;
+}
+
+.card-2 img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+section:nth-child(1) {
+    margin-bottom:  56px;
+}

@@ -38,6 +38,14 @@
 
 span {
     color: var(--red);
+    font: var(--subtitle);
+}
+
+h2 {
+    font-family: var(--font-asap);
+    font: var(--title-md-asap);
+    color: var(--gray-600);
+    margin-top: 20px;
 }
 
 .gray-500 {

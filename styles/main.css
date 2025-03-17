@@ -9,14 +9,7 @@ main {
     padding: 40px 20px;
 }
 
-main span {
-    font: var(--subtitle);
-}
-
 main h2 {
-    font-family: var(--font-asap);
-    font: var(--title-md-asap);
-    color: var(--gray-600);
     margin-top: 20px;
 }
 
@@ -30,6 +23,7 @@ main h2 {
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     margin: 0 auto;
+    margin-top: -80px;
     padding: 120px;
 }
 
