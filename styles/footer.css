@@ -1,0 +1,72 @@
+footer {
+    background-image: url(/assets/Background_Contacts.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#header-do-footer {
+    font-family: var(--font-inconsolada);
+    font: var(--subtitle);
+    color: var(--purple);
+}
+
+footer div:nth-child(1) {
+    margin-top: 128px;
+}
+
+#h3-do-footer {
+    margin-block: 8px;
+    font-family: var(--font-asap);
+    font: var(--title-md-asap);
+    color: var(--gray-600);
+}
+
+footer p:nth-last-child(1) {
+    font-family: var(--font-maven);
+    font: var(--text-md-maven);
+    color: var(--gray-500);
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--gray-300);
+    text-decoration: none;
+    padding-block: 20px;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.primeiro-icone {
+    width: 28px;
+    margin-left: 20px;
+}
+
+.social p {
+    display: flex;
+    flex: 1;
+    margin-left: 20px;
+    text-align: left;
+    font-family: var(--font-maven);
+    font: var(--text-md-maven);
+    color: var(--gray-500);
+}
+
+.terceiro-icone {
+    margin-right: 20px;
+}
+
+
