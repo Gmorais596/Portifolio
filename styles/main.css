@@ -61,3 +61,9 @@ main h2 {
     color: var(--gray-500);
     margin-top: 8px;
 }
+
+#portifolio a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
