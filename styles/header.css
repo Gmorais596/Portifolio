@@ -9,7 +9,9 @@ header {
     justify-content: center;
     text-align: center;
     padding: 100px;
-    
+    img {
+        border-radius: 50%;
+    }
 }
 
 #about {
